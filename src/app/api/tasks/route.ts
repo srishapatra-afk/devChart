@@ -25,6 +25,13 @@ export async function POST(request: Request){
         await connectDB();
 
         const body = await request.json();
+        
+        // Synchronize completed field with status
+        if (body.status) {
+            body.completed = body.status === "done";
+        } else if (body.completed !== undefined) {
+            body.status = body.completed ? "done" : "todo";
+        }
 
         const task = await Task.create(body);
 
