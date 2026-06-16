@@ -36,11 +36,17 @@ Built with a sleek, dark-themed glassmorphism aesthetic, `devChart` utilizes glo
 ---
 
 ## Technology Stack
-- **Framework**: Next.js 16.2 (App Router with Turbopack compilation)
-- **Database**: MongoDB Atlas with Mongoose schemas
-- **Styling**: Tailwind CSS v4 featuring customized glassmorphism classes
-- **Typography**: Google Font "Outfit" integrated via `next/font/google`
-- **Asset Handling**: Native inline SVGs for lightweight and scalable rendering
+- **FRONTEND**: Next.js 16.2 (App Router with Turbopack compilation)
+- **LANGUAGE**: TypeScript
+- **BACKEND**: TNext.js API Routes
+- **DATABASE**: MongoDB Atlas
+- **ODM**: Mongoose
+- **STYLING**: CSS + Glassmorphism
+- **ROUTING**: Next.js app router
+- **STATE**: React hooks
+- **DRAG AND DROP**: HTML5 Drag and Drop API
+- **DEPLOYMENT**: Vercel
+- **VERSION CONTROL**: Git and Github
 
 ---
 
