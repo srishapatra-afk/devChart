@@ -4,7 +4,8 @@
 
 Built with a sleek, dark-themed glassmorphism aesthetic, `devChart` utilizes glowing borders, responsive cards, and fluid transitions to deliver a premium user experience.
 
-![Dashboard Preview](./public/dashboard_preview.png)
+<img width="948" height="539" alt="Screenshot 2026-06-15 183652" src="https://github.com/user-attachments/assets/10ec68e3-4031-454c-84c3-38ea8c51638c" />
+
 
 ---
 
